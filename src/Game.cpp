@@ -25,13 +25,14 @@ void Game::playGame()
 				}
 
 			}
-			printScore();
+
 			rounds++;
 
 
 		}
 		else
 		{
+			printScore();
 			break;
 		}
 
